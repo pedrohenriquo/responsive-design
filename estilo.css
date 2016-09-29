@@ -306,10 +306,10 @@ Media Queries <<<<<=========================================
 @media screen and (max-width:768px){
 /*cores dos links e H2*/
 	h2, a, a:link, a:visited{
-	color:#FBCA61; 
+	color:#FE9380; 
 }
 	a:hover{
-		color:#F9AD0F;
+		color:#FE9380;
 }
 /*header*/	
 	header {
@@ -328,7 +328,7 @@ Media Queries <<<<<=========================================
 			width: 100%;
 		}
 			nav a.ativo:link, nav a:hover{
-				color:#FBCA61; 
+				color:#FE9380; 
 			}
 /*.chamada*/
 	.chamada{
@@ -342,7 +342,7 @@ Media Queries <<<<<=========================================
 		}
 /*.container*/
 	.container{
-		background-color:#FCDA92;
+		background-color:#FE9380;
 		height: 380px;
 		padding:3.90625%; /* 30px Ã· 768px = 0.025 x 100 = 2.5%*/
 		width:92.1875%; /* 100% (768px) - 7.8125% de padding (direita e esquerda) = 92.1875%*/
@@ -392,10 +392,10 @@ Media Queries <<<<<=========================================
 }
 /*cores dos links e H2*/
 h2, a, a:link, a:visited{
-	color:#9C8CB9; 
+	color:#FF7F00; 
 }
 a:hover{
-		color:#745F9A;
+		color:#FF7F00;
 }
 /*header*/	
 header {
@@ -414,7 +414,7 @@ nav{
 	clear:both;
 }
 	nav li {
-		background-color: #9C8CB9;
+		background-color: #FF7F00;
 		display:block;
 	}
 		nav ul li a{
@@ -430,12 +430,12 @@ nav{
 			font-size:1.3888888889em; /*25px Ã· 18px*/
 		}
 		nav li a.ativo:link, nav li a:hover, nav li a:visited {
-			background-color:#745F9A; 
+			background-color:#FF4500; 
 			color:#fff;
 			text-decoration:none;
 		}
 		nav li a.ativo:hover, nav li a.ativo:visited{
-			 background-color: #9C8CB9;
+			 background-color: #FF4500;
 		}
 /*.chamada*/
 .chamada{
@@ -499,24 +499,24 @@ nav{
 @media screen and (max-width:320px){
 /*cores dos links e H2*/
 h2, a, a:link, a:visited{
-	color:#79E1D5; 
+	color:#4682B4; 
 }
 a:hover{
-		color:#2FD0BC;
+		color:#4682B4;
 }
 /*menu nav*/
 	nav li {
-		background-color: #79E1D5;
+		background-color: #B0C4DE;
 	}
 		nav li a:link{
 		color:#555;
 		}
 		nav li a.ativo:link, nav li a:hover, nav li a:visited {
-			background-color:#2FD0BC; 
+			background-color:#4682B4; 
 			color:#fff;
 		}
 		nav li a.ativo:hover, nav li a.ativo:visited{
-			 background-color: #2FD0BC;
+			 background-color: #4682B4;
 		}
 /*.chamada*/
 .chamada{
