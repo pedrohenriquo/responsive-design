@@ -123,6 +123,9 @@ SeÃ§Ã£o .CHAMADA <<<<<========================================
 		letter-spacing: -0.0333333333em; /* -2px Ã· 60px = 0.0333333333em */
 		line-height: 1em; /* 60px Ã· 60px = 1em */
 	}
+	h2:hover{
+		color:#FFD700;	
+	}
 	.chamada h3 {
 		margin: 0 auto;
 		width:75%; /* 900px Ã· 1200px = 0.75 x 100 = 75%*/
